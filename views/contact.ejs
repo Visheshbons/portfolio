@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Contact Me</title>
+</head>
+
+<%- include("navbar.ejs") %>
+
+<body>
+
+    <header>
+        <h1 class="c">Contact Me</h1>
+        <h4 class="c">Please fill out the form below to get in touch with me.</h4>
+        <form action="/contact" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+    </header>
+    <div class = "contact-log">
+        <h2>Console.log your feedback</h2>
+        <form action="/consolelog" method="post"></form>
+        <textarea name="console.log" id="console-log"></textarea>
+        <button type="submit">Send</button>
+    </div>
+    
+</body>
+
+<%- include("footer.ejs") %>
+
+</html>
