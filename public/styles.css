@@ -55,13 +55,17 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-main {
+article {
     padding: 20px;
     background: #fff;
     margin: 20px auto;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+}
+
+main {
+    padding-bottom: 78px; /* Space for the footer */
 }
 
 h2 {

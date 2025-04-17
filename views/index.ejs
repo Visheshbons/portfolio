@@ -10,11 +10,32 @@
 </head>
 <body>
     <%- include('header') %>
-    <main class="center">
-        <p>Hi! I am</p>
+
+<main>
+    <article class="center">
+        <h2>Hello, This is</h2>
         <h1><%= data.name %></h1>
-        <h2><span class="typing-effect"></span></h2>
-    </main>
+        <h2>And I'm <span class="typing-effect">God</span></h2>
+        <p>A <%- data.age %>-Year-Old Self-Taught Full-Stack Developer.</p>
+    </article>
+
+    <article>
+        <h2>About Me</h2>
+        <% for( let i = 0; i < paras.length; i++ ) { %>
+            <p><%- paras[i] %></p>
+        <% } %>
+    </article>
+
+    <article>
+        <h2>My Launguages</h2>
+        <ul class="languages">
+            <% for( let i = 0; i < data.langs.length; i++ ) { %>
+                <li><%- data.langs[i] %></li>
+            <% } %>
+        </ul>
+    </article>
+</main>
+
     <%- include('footer') %>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
