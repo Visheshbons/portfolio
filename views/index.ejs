@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Vishesh's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="typing-effect.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
@@ -12,7 +13,19 @@
     <main class="center">
         <p>Hi! I am</p>
         <h1><%= data.name %></h1>
+        <h2><span class="typing-effect"></span></h2>
     </main>
     <%- include('footer') %>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".typing-effect", {
+            strings: <%- JSON.stringify(data.what_i_do) %>,
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true,
+            smartBackspace: true,
+        });
+    </script>
 </body>
 </html>

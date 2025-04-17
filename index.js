@@ -8,6 +8,7 @@ const data = {
     name: 'Vishesh Kudva',
     age: 13,
     hobbies: ['Coding', 'Gaming', 'Reading'],
+    what_i_do: ['A Full Stack Developer', 'A YouTuber', 'A Web Designer', 'An EJS User', 'An AI Enthusiast', 'A High-School Student', 'A Git User'],
     place: 'New Zealand',
     job: 'Student',
     langs: ['JavaScript', 'HTML', 'CSS'],
