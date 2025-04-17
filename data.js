@@ -27,6 +27,21 @@ const data = {
             link: 'https://visheshbons.github.io/FT/',
         },
         {
+            name: 'Simon Game',
+            description: 'This is a game I built, just when I was beginning to learn JavaScript. It is a game website.',
+            link: 'https://visheshbons.github.io/simon/',
+        },
+        {
+            name: 'Get Rickrolled.com',
+            description: 'This site was build purely for personal pleasure. It has some links, each ofwhich redirects into a Rickroll.',
+            link: 'https://visheshbons.github.io/Visheshbons.github.io_GetRickrolled.com/D.O.M.%20%20(Javascript%20website)/index.html',
+        },
+        {
+            name: 'Sri Jayam',
+            description: 'This was built for my aunt, who own a Beauty Parlor. This is one of my early full-stack creations.',
+            link: 'https://sri-jayam.onrender.com/',
+        },
+        {
             name: 'My Latest Portfolio',
             description: 'This is my latest portfolio. This page is built with just HTML, CSS and JavaScript.',
             link: 'https://vishesh-kudva.onrender.com/',
