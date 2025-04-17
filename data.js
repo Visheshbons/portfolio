@@ -6,6 +6,7 @@ const data = {
     name: 'Vishesh Kudva',
     age: 13,
     hobbies: ['Coding', 'Reading', 'Cycling', 'Gaming'],
+    email: 'vishesh.kudva@outlook.com',
     what_i_do: ['A Full Stack Developer', 'A YouTuber', 'A Web Designer', 'An EJS User', 'An AI Enthusiast', 'A High-School Student', 'A Git User'],
     place: 'New Zealand',
     job: 'Student',
@@ -40,6 +41,11 @@ const data = {
             name: 'Sri Jayam',
             description: 'This was built for my aunt, who own a Beauty Parlor. This is one of my early full-stack creations.',
             link: 'https://sri-jayam.onrender.com/',
+        },
+        {
+            name: 'V-Blogger',
+            description: 'This is a blogging website I built. It is a full-stack website, using JSON as data storage for the first time.',
+            link: 'https://v-blogger.onrender.com/',
         },
         {
             name: 'My Latest Portfolio',

@@ -59,6 +59,13 @@
             </div>
         <% } %>
     </article>
+
+    <article>
+        <h2>Contact Me</h2>
+        <hr>
+        <p>If you want to contact me, please send me an email at <a href="mailto:<%= data.email %>"><%= data.email %></a></p>
+        <p>Or, you can use the <a href="<%- data.project[6].link %>">V-Blogger</a> site, shown up in projects.</p>
+    </article>
 </main>
 
     <%- include('footer') %>
