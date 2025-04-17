@@ -12,27 +12,52 @@
     <%- include('header') %>
 
 <main>
-    <article class="center">
+    <article class="center" id="top">
         <h2>Hello, This is</h2>
         <h1><%= data.name %></h1>
         <h2>And I'm <span class="typing-effect">God</span></h2>
         <p>A <%- data.age %>-Year-Old Self-Taught Full-Stack Developer.</p>
     </article>
 
-    <article>
+    <article id="about">
         <h2>About Me</h2>
+        <hr>
         <% for( let i = 0; i < paras.length; i++ ) { %>
             <p><%- paras[i] %></p>
         <% } %>
     </article>
 
-    <article>
+    <article id="skills">
         <h2>My Launguages</h2>
+        <hr>
         <ul class="languages">
             <% for( let i = 0; i < data.langs.length; i++ ) { %>
                 <li><%- data.langs[i] %></li>
             <% } %>
         </ul>
+    </article>
+    
+    <article id="hobbies">
+        <h2>My Hobbies</h2>
+        <hr>
+        <ul class="hobbies">
+            <% for( let i = 0; i < data.hobbies.length; i++ ) { %>
+                <li><%- data.hobbies[i] %></li>
+            <% } %>
+        </ul>
+    </article>
+
+    <article id="projects">
+        <h2 class="project">My Projects</h2>
+        <hr>
+        <% for( let i = 0; i < data.project.length; i++ ) { %>
+            <div class="project">
+                <h3><%- data.project[i].name %></h3>
+                <p><%- data.project[i].description %></p>
+                <a href="<%- data.project[i].link %>" target="_blank">View Project</a>
+                <hr>
+            </div>
+        <% } %>
     </article>
 </main>
 

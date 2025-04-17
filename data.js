@@ -1,14 +1,37 @@
+import { name } from 'ejs';
 import express from 'express';
 const app = express();
 
 const data = {
     name: 'Vishesh Kudva',
     age: 13,
-    hobbies: ['Coding', 'Gaming', 'Reading'],
+    hobbies: ['Coding', 'Reading', 'Cycling', 'Gaming'],
     what_i_do: ['A Full Stack Developer', 'A YouTuber', 'A Web Designer', 'An EJS User', 'An AI Enthusiast', 'A High-School Student', 'A Git User'],
     place: 'New Zealand',
     job: 'Student',
     langs: ['JavaScript', 'HTML', 'CSS', 'Python', 'EJS'],
+    project: [
+        {
+            name: 'First Portfolio',
+            description: 'This is my very first portfolio. It is a simple page built with just HTML.',
+            link: 'https://visheshbons.github.io/vk/',
+        },
+        {
+            name: 'Second Portfolio',
+            description: 'This is my second portfolio. It is a simple page built with just HTML and CSS.',
+            link: 'https://visheshbons.github.io/cv/',
+        },
+        {
+            name: 'FT Cars',
+            description: 'This is a page I build for my fictional car company. It is a simple page built with just HTML and CSS.',
+            link: 'https://visheshbons.github.io/FT/',
+        },
+        {
+            name: 'My Latest Portfolio',
+            description: 'This is my latest portfolio. This page is built with just HTML, CSS and JavaScript.',
+            link: 'https://vishesh-kudva.onrender.com/',
+        }
+    ]
 };
 
 const paras = [
