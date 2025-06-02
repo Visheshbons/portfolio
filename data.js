@@ -51,6 +51,21 @@ const data = {
             name: 'My Latest Portfolio',
             description: 'This is my latest portfolio. This page is built with just HTML, CSS and JavaScript.',
             link: 'https://vishesh-kudva.onrender.com/',
+        },
+        {
+            name: 'Self-Driving ANN without any libraries',
+            description: 'This is a self-driving car simulation using an Artificial Neural Network (ANN) without any libraries. I am working on a 3d version using BeamNG.tech.',
+            link: 'https://vishesbons.github.io/self-driving-car/'
+        },
+        {
+            name: 'SHA1 Demo',
+            description: 'This is a live demo of the safety of SHA1 encryption. Here, you attempt a data breach.',
+            link: 'https://sha1-security-demo.onrender.com/'
+        },
+        {
+            name: 'Secrets',
+            description: 'Why not?',
+            link: 'https://'
         }
     ]
 };
