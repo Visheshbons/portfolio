@@ -66,6 +66,11 @@ const data = {
             name: 'Secrets',
             description: 'Why not?',
             link: 'https://'
+        },
+        {
+            name: 'V-RocketSim',
+            description: 'This is my first real attempt at a spaceflight game. Here, you can explore a full solar system with a small rocket.',
+            link: 'https://v-rocketsim.onrender.com/'
         }
     ]
 };
