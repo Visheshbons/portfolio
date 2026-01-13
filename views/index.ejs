@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Home | Vishesh's 
-    Portfolio</title> <link rel="stylesheet" href="styles.css"> <link rel="stylesheet" href="typing-effect.css"> <link rel="icon" 
-    href="favicon.ico"> <meta name="description" content="Vishesh Kudva's Portfolio - A 13-year-old self-taught full-stack developer 
-    showcasing projects, skills, and hobbies."> <meta name="keywords" content="Vishesh Kudva, Portfolio, Full-Stack Developer, 
-    Projects, Skills, Hobbies, Web Development"> <meta name="author" content="Vishesh Kudva">
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Vishesh Kudva</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="typing-effect.css">
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="Vishesh Kudva's Portfolio - A 13-year-old self-taught full-stack developer showcasing projects, skills, and hobbies.">
+    <meta name="keywords" content="Vishesh Kudva, Portfolio, Full-Stack Developer, Projects, Skills, Hobbies, Web Development">
+    <meta name="author" content="Vishesh Kudva">
     <meta name="google-site-verification" content="-UuMJ7KoyTg_TmXop7tAakxDD4u19FkoT0nOsWyHVn0" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Vishesh Kudva",
+      "url": "https://vishesh-kudva.onrender.com",
+      "jobTitle": "Web Developer",
+      "description": "Vishesh Kudva is a self-taught web developer from New Zealand.",
+      "sameAs": [
+        "https://github.com/Visheshbons"
+      ]
+    }
+    </script>
+    <link rel="canonical" href="https://vishesh-kudva.onrender.com/" />
 </head>
 <body>
     <%- include('header') %>
@@ -15,7 +32,7 @@
     <article class="center" id="top">
         <h2>Hello, This is</h2>
         <h1><%= data.name %></h1>
-        <h2>And I'm <span class="typing-effect">God</span></h2>
+        <h2>And I'm <span class="typing-effect"></span></h2>
         <p>A <%- data.age %>-Year-Old Self-Taught Full-Stack Developer.</p>
     </article>
 
@@ -36,7 +53,7 @@
             <% } %>
         </ul>
     </article>
-    
+
     <article id="hobbies">
         <h2>My Hobbies</h2>
         <hr>
