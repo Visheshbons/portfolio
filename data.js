@@ -25,6 +25,7 @@ const data = {
     "A Web Designer",
     "An EJS User",
     "An AI Enthusiast",
+    "An AI Developer",
     "A High-School Student",
     "A Git User",
   ],
@@ -103,13 +104,25 @@ const data = {
         "This is my first real attempt at a spaceflight game. Here, you can explore a full solar system with a small rocket.",
       link: "https://v-rocketsim.onrender.com/",
     },
+    {
+      name: "Learning Hub",
+      description:
+        "This is a very basic learning platform, where users can learn any subject at any level. Since this was a small project, most courses are empty (for now...)",
+      link: "https://learning-hub.onrender.com/",
+    },
+    {
+      name: "FreezerMeals",
+      description:
+        "This is a site made just for my friend, who I would keep anonymous, except his name and photo are on the site. He and his cousin are staring a buisness, so I am building this site for them.",
+      link: "https://freezer-meals.onrender.com/",
+    },
   ],
 };
 
 const paras = [
   `Hi, I'm Vishesh Kudva, a 14-year-old Year 11 student based in New Zealand. As a dedicated learner and creative thinker, I balance multiple projects while honing my skills in JavaScript, HTML, and CSS.`,
   `My coding journey started at the age of eight, when I first explored Python. By eleven, I had built my first web pages using HTML and CSS, and today I'm fluent in JavaScript and EJS. This multi-language foundation allows me to build robust front-end interfaces, craft overkill back-end services, and collaborate seamlessly across modern development workflows.`,
-  `Beyond software, I'm the founder and CEO of the fictional <a href="https://visheshbons.github.io/FT/">FT Cars</a> company, where I apply entrepreneurial thinking to prototype concepts and learn the ropes of product design and leadership. I also love speed - I've hit 51.75kph on my bike, proving that ambition extends off the screen too.`,
+  `Beyond software, I'm the founder and CEO of the fictional <a href="https://visheshbons.github.io/FT/">FT Cars</a> company, where I apply entrepreneurial thinking to prototype concepts and learn the ropes of product design and leadership. I also love speed - I've hit 73.28kph on my bike as of 2025 (albeit I almost crashed), proving that ambition extends off the screen too.`,
   `Outside of tech, I unwind by reading, always on the lookout for fresh ideas and stories. I'm eager to connect with fellow programmers, share insights on YouTube, and welcome feedback—especially on spelling, bugs, or design quirks—so feel free to reach out!`,
 ];
 
