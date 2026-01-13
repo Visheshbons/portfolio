@@ -2,9 +2,21 @@ import { name } from "ejs";
 import express from "express";
 const app = express();
 
+// Calculate age based on date
+const age = () => {
+  const today = new Date();
+  const birthDate = new Date("2011-05-16");
+  let age = today.getFullYear() - birthDate.getFullYear();
+  const month = today.getMonth() - birthDate.getMonth();
+  if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
+    age--;
+  }
+  return age;
+};
+
 const data = {
   name: "Vishesh Kudva",
-  age: 14,
+  age: age(),
   hobbies: ["Coding", "Reading", "Cycling", "Gaming"],
   email: "vishesh.kudva@outlook.com",
   what_i_do: [
@@ -29,37 +41,37 @@ const data = {
     {
       name: "Second Portfolio",
       description:
-        "This is my second portfolio. It is a simple page built with just HTML and CSS.",
+        "This is my second portfolio. It is a simple page built with just HTML and CSS. Don't look, it's embarrassing.",
       link: "https://visheshbons.github.io/cv/",
     },
     {
       name: "FT Cars",
       description:
-        "This is a page I build for my fictional car company. It is a simple page built with just HTML and CSS.",
+        "This is a page I built for my fictional car company. It is a simple page built with just HTML and CSS. I'd also like to mention that I made this when I was 11.",
       link: "https://visheshbons.github.io/FT/",
     },
     {
       name: "Simon Game",
       description:
-        "This is a game I built, just when I was beginning to learn JavaScript. It is a game website.",
+        "This is a game I built, just when I was beginning to learn JavaScript. It is a game website. It's buggy.",
       link: "https://visheshbons.github.io/simon/",
     },
     {
       name: "Get Rickrolled.com",
       description:
-        "This site was build purely for personal pleasure. It has some links, each ofwhich redirects into a Rickroll.",
+        "This site was built purely for personal pleasure. It has some links, each of which redirects into a Rickroll.",
       link: "https://visheshbons.github.io/Visheshbons.github.io_GetRickrolled.com/D.O.M.%20%20(Javascript%20website)/index.html",
     },
     {
       name: "Sri Jayam",
       description:
-        "This was built for my aunt, who own a Beauty Parlor. This is one of my early full-stack creations.",
+        "This was built for my aunt, who owns a Beauty Parlor. This is one of my early full-stack creations.",
       link: "https://sri-jayam.onrender.com/",
     },
     {
       name: "V-Blogger",
       description:
-        "This is a blogging website I built. It is a full-stack website, using JSON as data storage for the first time.",
+        "This is a blogging website I built. It is a full-stack website, using JSON as data storage for the first time. However, this has been migrated to MongoDB.",
       link: "https://v-blogger.onrender.com/",
     },
     {
