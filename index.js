@@ -1,7 +1,7 @@
 import express from "express";
 import { data, paras } from "./data.js";
 const app = express();
-const port = 7500;
+const port = process.env.PORT || 7500;
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
