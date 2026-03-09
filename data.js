@@ -94,11 +94,6 @@ const data = {
       link: "https://sha1-security-demo.onrender.com/",
     },
     {
-      name: "Secrets",
-      description: "Why not?",
-      link: "https://vishesh-secrets.onrender.com/",
-    },
-    {
       name: "V-RocketSim",
       description:
         "This is my first real attempt at a spaceflight game. Here, you can explore a full solar system with a small rocket.",
