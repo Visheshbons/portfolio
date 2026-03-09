@@ -10,7 +10,7 @@ const age = () => {
   const month = today.getMonth() - birthDate.getMonth();
   if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
     age--;
-  } 
+  }
   return age;
 };
 
@@ -92,11 +92,6 @@ const data = {
       description:
         "This is a live demo of the safety of SHA1 encryption. Here, you attempt a data breach.",
       link: "https://sha1-security-demo.onrender.com/",
-    },
-    {
-      name: "Secrets",
-      description: "Why not?",
-      link: "javascript:alert('lmao nice try')",
     },
     {
       name: "V-RocketSim",
